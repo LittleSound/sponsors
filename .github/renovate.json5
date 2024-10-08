@@ -1,0 +1,4 @@
+{
+  extends: ['github>LittleSound/renovate-config'],
+  automerge: true,
+}
