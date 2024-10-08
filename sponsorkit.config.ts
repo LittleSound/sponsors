@@ -1,7 +1,7 @@
 import { defineConfig, tierPresets } from 'sponsorkit'
 
 export default defineConfig({
-  formats: ['svg', 'json'],
+  formats: ['svg', 'png', 'json'],
   includePastSponsors: false,
   afdian: {
     exechangeRate: 6.8,
