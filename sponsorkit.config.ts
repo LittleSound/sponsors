@@ -6,6 +6,10 @@ export default defineConfig({
   afdian: {
     exechangeRate: 6.8,
   },
+  github: {
+    login: 'LittleSound',
+    token: process.env.SPONSORKIT_GITHUB_TOKEN,
+  },
   tiers: [
     {
       title: 'Past Sponsors',

@@ -2,6 +2,9 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev": "rm -f .cache.json && sponsorkit --dir ."
+  },
   "dependencies": {
     "sponsorkit": "^0.15.5"
   },
